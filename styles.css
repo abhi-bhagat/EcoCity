@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #535353;
+  
+}
+
+/* ========== colours to be used ====== */
+
+/* ======== NOTES  ===== */
+
+/* 1000px to baad header ch setting adjust krni hai == */
+
+
+/* CSS */
+
+.swaatch_0{
+
+    background : #a9dc7f  }
+
+.swatch_1{
+    background: #37ad28;
+}
+.swatch_2{
+    background: #fdfdfd;
+}
+.swatch_3{
+    background: #1e670b;
+}
+.swatch_4{
+    background: #222a22;
+}
+.swatch_5{
+    background: #a6c3ab;
+}
+.swatch_6{
+    background: #60cdb2;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ============== NAVBAR =============== */
+
+.head-bar{
+    
+    /* border: 2px solid red; */
+    position: absolute;
+    top: .25rem;
+    width: 100%;
+    left: 0;
+    border-radius: 25px;
+    background-color: white;
+}
+
+
+.title-image{
+    height: 2rem;
+}
+
+.nav-item{
+    font-size: 1.10rem;
+}
+
+/* ============================TITLE ================ */
+
+.title{
+    background-color : #a9dc7f;
+    height: 100vh;
+    padding: 2.75rem;
+    display : flex;
+    
+}
+
+.title-content{
+    height: 90%;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+}
+
+.image-container{
+    /* background-color: red; */
+    height: 100%;
+    text-align: right;
+    /* max-height: 90%; */
+
+    
+}
+.earth-city{
+    /* height: 100%; */
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.context-container{
+    text-align: center;
+}
+.site-name{
+    font-size: 4.75rem;
+    font-weight: bold;
+}
+.eco{
+    color: #37ad28;
+}
+.city , .p1, .p2{
+    color: #535353;
+}
+.together{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #37ad28;
+}
+.subheading{
+    font-size: 1.25rem;
+    color: #535353;
+
+}
+.sub-content{
+    text-align: left;
+    margin-top: 5rem;
+}
+
+
+
+
+/* ============FEATURES ======== */
+.features{
+    
+    background-color: #fff;
+}
+
+.features{
+    padding: 3rem 2.75rem 4rem 2.75rem;
+}
+
+.feature-heading{
+    text-align: center;
+    margin:2rem 3rem 4rem 3rem;
+    font-size: 3rem;
+}
+.help-text{
+    color: #37ad28;
+    text-decoration: underline;
+}
+.features-content{
+    width: 90%;
+    margin: auto;
+
+}
+.card{
+    padding: 2rem 0 0 0rem;
+    margin: 0;
+}
+.card-icon{
+    text-align: center;
+    font-size: 5rem;
+    color: #37ad28;
+    padding-bottom: 1rem;
+}
+.card-body{
+    margin-top: 1.75rem;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+/* =========== media queries ================= */
+
+/* ======= for Tablets ====== */
+@media only screen and (max-width: 992px) {
+    .title{
+        padding: 0.5rem 1rem;
+    }
+    
+    .earth-city{
+    width: 100%;
+    height: 50%;
+    }
+
+    .context-container{
+        margin-top: 2rem;
+    }
+  }
+
+
+/* ===== small devices   =======  */
+  @media only screen and (max-width: 768px) {
+    .earth-city{
+    width: 100%;
+    height: 50%;
+    }
+
+    .title{
+        padding: 0;
+    }
+  }
+
+  /* =========== portait mobile ======== */
+  @media only screen and (max-width: 576px) {
+  .title-content{
+      height: 100%;
+      width: 100%;
+      border-radius: 0%;
+  }
+  .site-name{
+      font-size: 2.75rem;
+  }
+  }
