@@ -66,11 +66,17 @@ h1,h2,h3,h4,h5{
 /* ============================TITLE ================ */
 
 .title{
-    background-color : #a9dc7f;
+    /* background-color : #a9dc7f; */
     background-image: linear-gradient(to right, #a9dc7f , #8ec165);
     height: 100vh;
     padding: 2.75rem;
     display : flex;
+    background-image: url("images/background4.svg");
+    
+    /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 
@@ -89,6 +95,7 @@ h1,h2,h3,h4,h5{
     height: 100%;
     text-align: right;
     /* max-height: 90%; */
+  
 
     
 }
@@ -263,6 +270,36 @@ h5{
     color: #37ad28;
     padding: .5rem;
 }
+
+
+
+
+
+/* ======== contact =========  */
+
+.contact-container{
+    background-image: url("images/background4.svg");
+    min-height: 500px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.contact-heading{
+    font-size: 3rem ;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+
+
+
+
+
 
 /* =========== media queries ================= */
 
