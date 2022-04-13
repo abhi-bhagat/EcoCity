@@ -67,6 +67,7 @@ h1,h2,h3,h4,h5{
 
 .title{
     background-color : #a9dc7f;
+    background-image: linear-gradient(to right, #a9dc7f , #8ec165);
     height: 100vh;
     padding: 2.75rem;
     display : flex;
@@ -173,11 +174,43 @@ h1,h2,h3,h4,h5{
     text-align:center;
 }
 
+/* =========== testimonials ============ */
 
+.testimonials {
+    background-color : #a9dc7f;
+    background-image: linear-gradient(to right, #a9dc7f , #8ec165);
+    padding : 4rem;
+}
+.testimonial-heading{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size:3rem;
+}
 
+.quotation-image{
+    
+    height: 3rem;
+    text-align: left;
 
+    
 
-
+}
+.testimonial-title-heading{
+    text-align: left;
+}
+.user-image{
+    height: 2rem;
+    display: inline-block;
+    width: 20%;
+    
+}
+.testimonial-bottom{
+    padding-top: 2rem;
+}
+.card-img-overlay{
+    border-radius: 25%;
+}
 
 
 
@@ -219,6 +252,10 @@ h1,h2,h3,h4,h5{
       height: 100%;
       width: 100%;
       border-radius: 0%;
+      padding: 0;
+  }
+  .image-container{
+      display: block;
       height: 40%;
   }
   .site-name{
@@ -233,3 +270,50 @@ h1,h2,h3,h4,h5{
         height: auto;
     }
   }
+
+
+
+
+
+
+
+  .swiper {
+    width: 800px;
+    height: 400px;
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    /* height: 300px; */
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    filter:blur(4px);
+    background: #d1ebff;
+    border-radius: 10px;
+
+  }
+  .swiper-slide-active{
+      filter: blur(0px);
+  }
+
+  .swiper-pagination-bullet{
+      background: white;
+      opacity: .8;
+  }
+  .swiper-pagination-bullet-active{
+      background: #8ec165;
+      border : 2px solid white;
+      opacity: 1;
+
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+  } */
