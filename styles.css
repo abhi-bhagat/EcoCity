@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5{
 }
 
 .features{
-    padding: 3rem 2.75rem 4rem 2.75rem;
+    padding: 3rem 2.75rem 6rem 2.75rem;
 }
 
 .feature-heading{
@@ -186,6 +186,7 @@ h1,h2,h3,h4,h5{
     text-align: center;
     padding-top: 2rem;
     font-size:3rem;
+    padding-bottom: 2rem;
 }
 
 .quotation-image{
@@ -212,8 +213,27 @@ h1,h2,h3,h4,h5{
     border-radius: 25%;
 }
 
+/* =============== TEAM ========== */
 
+.team{
+    font-size: 3rem;
+    text-align: center;
+}
+.amazing{
+    color: #37ad28;
+}
+.team-section{
+    padding: 4rem 0;
+}
 
+.team-card{
+  margin: 1rem;
+  border: 1px solid #37ad28;
+}
+.team-image1 img{
+    height: 200px;
+    width: 300px;
+}
 
 /* =========== media queries ================= */
 
@@ -282,7 +302,7 @@ h1,h2,h3,h4,h5{
     height: 400px;
   }
   .swiper {
-    width: 100%;
+    width: 80%;
     padding-top: 50px;
     padding-bottom: 50px;
   }
