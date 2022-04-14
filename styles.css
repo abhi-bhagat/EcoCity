@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5{
 .head-bar{
     
     /* border: 2px solid red; */
-    position: absolute;
+    /* position: absolute; */
     top: .25rem;
     width: 100%;
     left: 0;
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5{
     border-radius: 25px;
     margin: auto;
     padding: 2rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .image-container{
@@ -337,6 +337,8 @@ h5{
     height: 300px;
     padding: 2rem;
     text-align: center;
+    
+    
 
 }
 .footer-site-link{
@@ -369,9 +371,13 @@ h5{
     height: 50%;
     }
 
-    .context-container{
+    .sub-content{
         margin-top: 2rem;
     }
+
+    /* .context-container{
+        margin-top: 3.5rem;
+    } */
   }
 
 
@@ -385,10 +391,33 @@ h5{
     .title{
         padding: 0;
     }
+
+    .features-card{
+        margin: 1rem ;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .site-name{
+        margin-top: 2rem;
+    }
+    .lastName{
+        margin-top: .75rem;
+    }
+
+    .sub-content{
+        margin-top: 1rem;
+    }
+
   }
 
   /* =========== portait mobile ======== */
   @media only screen and (max-width: 576px) {
+  
+
+
   .title-content{
       height: 100%;
       width: 100%;
@@ -409,6 +438,25 @@ h5{
     }
     .title{
         height: auto;
+    }
+    .testimonials{
+        padding: 0.5rem;
+    }
+    .features {
+        padding: 3rem 0.5rem 6rem 0.5rem;
+    }
+
+
+    .card-body{
+        margin-top: 0;
+    }
+
+    .form-container{
+        padding: 1rem;
+    }
+
+    .contact-container{
+        padding: 1rem;
     }
   }
 
