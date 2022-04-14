@@ -57,3 +57,14 @@ var swiper = new Swiper(".mySwiper", {
     },
     loop : true,
   });
+
+
+
+
+
+
+
+
+  $('.navbar-toggler').click(function (){
+      $('#navbarNav').toggle();
+  });
