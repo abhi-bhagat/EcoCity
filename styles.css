@@ -307,13 +307,53 @@ h5{
     border-radius: 10px;
     padding: 4rem;
     width: 70%;
+    background: rgba(255, 255, 255, 0.048);
+    box-shadow: 0 4px 30px rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+.submit{
+    width: 100%;
+    
 }
 
 
+/* ====================footer ============ */
 
+.footer{
+    background-image: url("images/background4.svg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    min-height: 200px;
+    height: 300px;
+}
 
+.footer-container{
+    background-color: #fff;
+    border-radius: 75px 75px 0 0 ;
+    margin: auto;
+    padding: 2rem;
+    min-height: 200px;
+    height: 300px;
+    padding: 2rem;
+    text-align: center;
 
-
+}
+.footer-site-link{
+    text-decoration: none;
+}
+.footer-li a {
+    color: #535353;
+    
+}
+.footer-li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-section{
+    border: 1px solid red;
+    margin: 2rem 1rem;
+}
 
 
 /* =========== media queries ================= */
